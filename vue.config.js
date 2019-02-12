@@ -6,6 +6,7 @@ module.exports = {
           .tap(args => {
             args[0].template = './app/public/index.html'
             args[0].filename = '../views/index.html'
+            args[0].favicon = './app/public/favicon.ico'
             return args
           })
       }
