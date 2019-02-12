@@ -7,6 +7,7 @@
   "scripts": {
     "start": "node ./app.js",
     "build": "vue-cli-service build ./app/src/main.js",
+    "postinstall": "vue-cli-service build ./app/src/main.js",
     "lint": "vue-cli-service lint ./app/src/main.js"
   },
   "dependencies": {
